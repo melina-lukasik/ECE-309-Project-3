@@ -1,0 +1,8 @@
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/harness_core.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/miniharness.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/test_p2.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/test_p3.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/test_loop.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/test.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/edit_cache.dir
+/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/rebuild_cache.dir

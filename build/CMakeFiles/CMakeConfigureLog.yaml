@@ -1,0 +1,2531 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Linux - 6.18.33.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/usr/bin/gmake"
+      - "/sbin/gmake"
+      - "/bin/gmake"
+      - "/usr/games/gmake"
+      - "/usr/local/games/gmake"
+      - "/usr/lib/wsl/lib/gmake"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gmake"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gmake"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/gmake"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/gmake"
+      - "/mnt/c/Windows/System32/gmake"
+      - "/mnt/c/Windows/gmake"
+      - "/mnt/c/Windows/System32/wbem/gmake"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/gmake"
+      - "/mnt/c/Windows/System32/OpenSSH/gmake"
+      - "/mnt/d/progesterone/PuTTY/gmake"
+      - "/mnt/c/Program Files/Git/cmd/gmake"
+      - "/mnt/c/Program Files/wooting-analog-sdk/gmake"
+      - "/mnt/c/Program Files/dotnet/gmake"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/gmake"
+      - "/mnt/d/progesterone/GnuPG/bin/gmake"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/gmake"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/gmake"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/gmake"
+      - "/mnt/c/ffmpeg/bin/gmake"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/gmake"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/gmake"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/gmake"
+      - "/snap/bin/gmake"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+      - "/usr/sbin/make"
+      - "/usr/bin/make"
+      - "/sbin/make"
+      - "/bin/make"
+      - "/usr/games/make"
+      - "/usr/local/games/make"
+      - "/usr/lib/wsl/lib/make"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/make"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/make"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/make"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/make"
+      - "/mnt/c/Windows/System32/make"
+      - "/mnt/c/Windows/make"
+      - "/mnt/c/Windows/System32/wbem/make"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/make"
+      - "/mnt/c/Windows/System32/OpenSSH/make"
+      - "/mnt/d/progesterone/PuTTY/make"
+      - "/mnt/c/Program Files/Git/cmd/make"
+      - "/mnt/c/Program Files/wooting-analog-sdk/make"
+      - "/mnt/c/Program Files/dotnet/make"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/make"
+      - "/mnt/d/progesterone/GnuPG/bin/make"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/make"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/make"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/make"
+      - "/mnt/c/ffmpeg/bin/make"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/make"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/make"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/make"
+      - "/snap/bin/make"
+      - "/usr/local/sbin/smake"
+      - "/usr/local/bin/smake"
+      - "/usr/sbin/smake"
+      - "/usr/bin/smake"
+      - "/sbin/smake"
+      - "/bin/smake"
+      - "/usr/games/smake"
+      - "/usr/local/games/smake"
+      - "/usr/lib/wsl/lib/smake"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/smake"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/smake"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/smake"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/smake"
+      - "/mnt/c/Windows/System32/smake"
+      - "/mnt/c/Windows/smake"
+      - "/mnt/c/Windows/System32/wbem/smake"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/smake"
+      - "/mnt/c/Windows/System32/OpenSSH/smake"
+      - "/mnt/d/progesterone/PuTTY/smake"
+      - "/mnt/c/Program Files/Git/cmd/smake"
+      - "/mnt/c/Program Files/wooting-analog-sdk/smake"
+      - "/mnt/c/Program Files/dotnet/smake"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/smake"
+      - "/mnt/d/progesterone/GnuPG/bin/smake"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/smake"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/smake"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/smake"
+      - "/mnt/c/ffmpeg/bin/smake"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/smake"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/smake"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/smake"
+      - "/snap/bin/smake"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/snap/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/sbin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/"
+    found: "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/4.4.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/lib/wsl/lib/dlltool"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dlltool"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/dlltool"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/dlltool"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/dlltool"
+      - "/mnt/c/Windows/System32/dlltool"
+      - "/mnt/c/Windows/dlltool"
+      - "/mnt/c/Windows/System32/wbem/dlltool"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "/mnt/c/Windows/System32/OpenSSH/dlltool"
+      - "/mnt/d/progesterone/PuTTY/dlltool"
+      - "/mnt/c/Program Files/Git/cmd/dlltool"
+      - "/mnt/c/Program Files/wooting-analog-sdk/dlltool"
+      - "/mnt/c/Program Files/dotnet/dlltool"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/dlltool"
+      - "/mnt/d/progesterone/GnuPG/bin/dlltool"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/dlltool"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "/mnt/c/ffmpeg/bin/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/dlltool"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/lib/wsl/lib/tapi"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "/mnt/c/Windows/System32/tapi"
+      - "/mnt/c/Windows/tapi"
+      - "/mnt/c/Windows/System32/wbem/tapi"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "/mnt/c/Windows/System32/OpenSSH/tapi"
+      - "/mnt/d/progesterone/PuTTY/tapi"
+      - "/mnt/c/Program Files/Git/cmd/tapi"
+      - "/mnt/c/Program Files/wooting-analog-sdk/tapi"
+      - "/mnt/c/Program Files/dotnet/tapi"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/tapi"
+      - "/mnt/d/progesterone/GnuPG/bin/tapi"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/tapi"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "/mnt/c/ffmpeg/bin/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/tapi"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/games/gcc-ar-15.2"
+      - "/usr/local/games/gcc-ar-15.2"
+      - "/usr/lib/wsl/lib/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/gcc-ar-15.2"
+      - "/mnt/c/Windows/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/wbem/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "/mnt/d/progesterone/PuTTY/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-15.2"
+      - "/mnt/c/Program Files/wooting-analog-sdk/gcc-ar-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/gcc-ar-15.2"
+      - "/mnt/d/progesterone/GnuPG/bin/gcc-ar-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "/mnt/c/ffmpeg/bin/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/gcc-ar-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-15.2"
+      - "/snap/bin/gcc-ar-15.2"
+    found: "/usr/bin/gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Windows/System32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/d/progesterone/PuTTY/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/wooting-analog-sdk/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+      - "/mnt/d/progesterone/GnuPG/bin/"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/ffmpeg/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/games/gcc-ranlib-15.2"
+      - "/usr/local/games/gcc-ranlib-15.2"
+      - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "/mnt/d/progesterone/PuTTY/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/wooting-analog-sdk/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/gcc-ranlib-15.2"
+      - "/mnt/d/progesterone/GnuPG/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2026a/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Mullvad VPN/resources/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "/mnt/c/ffmpeg/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-15.2"
+      - "/snap/bin/gcc-ranlib-15.2"
+    found: "/usr/bin/gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85"
+      binary: "/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85'
+        
+        Run Build Command(s): /snap/cmake/1572/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9339d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9339d.dir/build.make CMakeFiles/cmTC_9339d.dir/build
+        gmake[1]: Entering directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85'
+        Building CXX object CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1572/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1572/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9339d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccZCYUWt.s
+        GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/15
+         /usr/include/x86_64-linux-gnu/c++/15
+         /usr/include/c++/15/backward
+         /usr/lib/gcc/x86_64-linux-gnu/15/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZCYUWt.s
+        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9339d
+        /snap/cmake/1572/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9339d.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9339d' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9339d.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9339d' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9339d.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9339d
+        gmake[1]: Leaving directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/15]
+          add: [/usr/include/x86_64-linux-gnu/c++/15]
+          add: [/usr/include/c++/15/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/15] ==> [/usr/include/c++/15]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
+        collapse include dir [/usr/include/c++/15/backward] ==> [/usr/include/c++/15/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85']
+        ignore line: []
+        ignore line: [Run Build Command(s): /snap/cmake/1572/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9339d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9339d.dir/build.make CMakeFiles/cmTC_9339d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-MjWe85']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1572/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1572/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9339d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccZCYUWt.s]
+        ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/15]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/15]
+        ignore line: [ /usr/include/c++/15/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZCYUWt.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9339d]
+        ignore line: [/snap/cmake/1572/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9339d.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9339d' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9339d.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZhUqxB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9339d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZhUqxB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9339d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9339d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/snap/cmake/1572/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Linux - 6.18.33.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Windows/System32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/d/progesterone/PuTTY/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/wooting-analog-sdk/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/QuickTime/QTSystem/"
+        - "/mnt/d/progesterone/GnuPG/bin"
+        - "/mnt/c/Program Files/MATLAB/R2026a/bin"
+        - "/mnt/c/Program Files/Mullvad VPN/resources"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ballc/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/ffmpeg/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/GitHubDesktop/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/ballc/AppData/Local/PowerToys/DSCModules/"
+        - "/mnt/c/Users/ballc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D"
+      binary: "/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "ON"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f32c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f32c.dir/build.make CMakeFiles/cmTC_7f32c.dir/build
+        gmake[1]: Entering directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D'
+        Building CXX object CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7f32c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccq4Ae6t.s
+        GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/15
+         /usr/include/x86_64-linux-gnu/c++/15
+         /usr/include/c++/15/backward
+         /usr/lib/gcc/x86_64-linux-gnu/15/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq4Ae6t.s
+        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_7f32c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f32c.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f32c' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7f32c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z96UX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7f32c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z96UX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7f32c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f32c' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7f32c.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7f32c
+        gmake[1]: Leaving directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/15]
+          add: [/usr/include/x86_64-linux-gnu/c++/15]
+          add: [/usr/include/c++/15/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/15] ==> [/usr/include/c++/15]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
+        collapse include dir [/usr/include/c++/15/backward] ==> [/usr/include/c++/15/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f32c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7f32c.dir/build.make CMakeFiles/cmTC_7f32c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/downtheload/skull/ece309/project 3/P3_starter/build/CMakeFiles/CMakeScratch/TryCompile-Q2ll6D']
+        ignore line: [Building CXX object CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7f32c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccq4Ae6t.s]
+        ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/15]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/15]
+        ignore line: [ /usr/include/c++/15/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq4Ae6t.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_7f32c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f32c.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f32c' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7f32c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z96UX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7f32c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8Z96UX.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7f32c] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z96UX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7f32c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7f32c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+...
