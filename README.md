@@ -1,4 +1,4 @@
-# ECE 309 · Project 3 starter — Tool Use and the Tool Registry
+# ECE 309 · Project 3 — Tool Use and the Tool Registry
 
 Implemented by me are:
 * `ToolRegistry` — a hash table from tool name to `Tool`
